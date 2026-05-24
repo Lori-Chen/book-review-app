@@ -150,7 +150,7 @@ export const BookDetail: React.FC = () => {
                       <span className="font-medium text-gray-800">{review.userNickname}</span>
                       <span className="text-xs text-gray-400">{review.publishDate}</span>
                     </div>
-                    <StarRating rating={review.rating} size={14} readonly className="mt-1" />
+                    <StarRating rating={review.rating} size={14} readonly  />
                   </div>
                 </div>
                 <h4 className="font-semibold text-gray-800 mt-3">{review.title}</h4>
